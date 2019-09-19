@@ -1,7 +1,6 @@
 # Weather Widget Chrome Extension
 
-    This is a simple chrome extension that displays weather of any city or area aroung the world. 
-        This uses Open Weather Map Api.
+This is a simple chrome extension that displays weather of any city or area around the world. This app is created by using Open Weather Map API
 
 ---
 

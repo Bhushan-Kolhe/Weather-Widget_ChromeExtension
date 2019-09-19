@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather-Widget</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/weather-icons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="App">
+        <div class='searchBar'>
+            <input id="search" type="text" placeholder="Search by Name or Zip Code" />
+        </div>
+        <div class="WeatherArea">
+            <div class="container">
+                <div class="containerTop">
+                    <div class="location align-Left">
+                        <span id="city">Aurangabad, </span>
+                        <span id="country">IN</span>
+                    </div>
+                    <div class="time align-Right">
+                        <span id="time">12:23 AM</span>
+                    </div>
+                </div>
+                <div class="containerMid">
+                    <div class="textInner">
+                        <i id="icon" class= "icon wi wi-night-alt-showers"></i>
+                        <span id="description" class="desc">Cloudy Thunderstrom rain</span>
+                    </div>
+                </div>
+                <div class="containerMid">
+                    <div class="descContainer">
+                        <span id="temp" class="temp">23°C</span>
+                    </div>
+                    <div class="textInnerBottom align-Right max-min">
+                        <span id="maxTemp" class="maxTemp">Max: 23°C<span></span></span>
+                        <span id="minTemp" class="minTemp">Min: 23°C<span></span></span>
+                    </div>
+                </div>
+                <div class="containerBottom">
+                    <div class="details align-Left">
+                        <span id="wind" class="wind">Wind: 20 kmph</span>
+                    </div>
+                    <div class="details align-Right">
+                        <span id="humidity" class="humidity">Humidity: 96%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

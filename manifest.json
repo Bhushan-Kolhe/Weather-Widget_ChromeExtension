@@ -1,0 +1,13 @@
+{
+    "name": "Weather Widget",
+    "version": "1.0.0",
+    "description": "Weather is the best extension to check the weather of any city in world on chrome instantly",
+    "manifest_version": 2,
+    "icons": {
+        "128": "icon_128.png" 
+    },
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "index.html"
+    }
+}

@@ -1,0 +1,143 @@
+.App {
+    text-align: center;
+    background: url("./bg.png");
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: #F7F5FB;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+body,html {
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    color: #F7F5FB;
+}
+
+.App {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: 1em;
+    width: fit-content;
+  }
+
+
+.searchBar {
+    margin: 0 10px;
+    width: 300px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.searchBar > input::placeholder {
+    color: #FCD581;
+}
+
+.searchBar > input:focus {
+    outline: none;
+}
+
+.searchBar > input {
+    text-align: center;
+    padding: 0px 2px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    align-self: center;
+    transition: width 0.7s;
+    background-color: rgba(0, 0, 0, 0);
+    color: #F7F5FB;
+}
+
+.container {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    padding: 2px 10px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.WeatherArea {
+    display: none;
+    width: 300px;
+    height: 0px;
+    padding: 2px 10px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.align-Left{
+    width: 50%;
+    text-align: left;
+}
+
+.align-Right{
+    width: 50%;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.textInnerBottom > span,
+.details > span {
+    display: block;
+}
+
+.icon::before {
+    font-size: 35px;
+}
+
+.temp {
+    font-size: 40px;
+}
+
+
+.desc {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0.7em 0 0.6em 0;
+}
+
+.max-min,
+.containerTop,
+.containerBottom{
+    font-size: 15px;
+}
+
+.containerTop,
+.containerMid,
+.containerBottom {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.descContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
